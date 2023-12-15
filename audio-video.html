@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Аudio</title>
+</head>
+<body>
+<h1>Audio tagged source /// Audio without source tag</h1>
+<audio controls = "controls" autoplay = "autoplay">
+<source src = "madara.mp3" type = "audio/mp3">
+Your browser does not support this audio format.
+You can download this file from the link below:
+<p><a href = "madara.rar">Download</a></p>
+</audio>
+<audio src = "madara.mp3" type = "audio/mp3" width = "320" height = "240" controls = "controls" autoplay = "autoplay">
+</audio>
+
+<h1>Videos tagged with source /// Video without source tag</h1>
+<video width = "320" height = "240" loop = "loop" poster = "image.jpg" controls = "controls">
+<source src = "naruto.mp4" type = "video/mp4">
+<track src = "sub_en.vtt" kind = "subtitles" srclang =
+"en" label = "English">
+<track src = "sub_ru.vtt" kind = "subtitles" srclang =
+"ru" label = "Russian" default>
+</video>
+<video style ="right" width = "320" height = "240" loop = "loop" poster = "image.jpg" controls = "controls" src = "naruto.mp4" type = "video/mp4">
+<track src = "sub_en.vtt" kind = "subtitles" srclang =
+"en" label = "English">
+<track src = "sub_ru.vtt" kind = "subtitles" srclang =
+"ru" label = "Russian" default>
+</video>
+
+</body>
+</html>
